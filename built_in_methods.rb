@@ -95,7 +95,7 @@ negative_numbers.each do |num|
   p num.pred
 end
 #The array method being used here is the shuffle method. A couple other integer methods are being used as well. The split method and sort method. 
-#The split method takes the string of integers and returns the integers as an array. While the shuffle method mixes the integers randomly. Finally, the sort method takes the array of integers and places them into order from least to greater.
+#The split method takes the string of integers and returns the integers as an array. While the shuffle method mixes the integers randomly. Finally, the sort method takes the array of integer and places them into order from least to greater.
 #The return value will be an array with the given integers from least to great. 
 game_numbers = "185469372"
 array_of_game_numbers = game_numbers.split('').shuffle
